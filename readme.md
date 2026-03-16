@@ -8,6 +8,7 @@ const cool = true;
 const print = (txt) => {
     console.log(txt ?? 'failed to print')
 }
+
 switch (cool) {
     case false:
         console.log('Not cool!')
